@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Vital WeatherApp</string>
+    <string name="hello_vitalgroundz">Hello %1$s!</string>
+    <string name="degreess_fahr">%1$s!\u2109</string>
+</resources>
