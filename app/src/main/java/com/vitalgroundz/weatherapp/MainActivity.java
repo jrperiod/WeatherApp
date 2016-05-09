@@ -6,8 +6,8 @@ import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.vitalgroundz.weatherapp.data.Forecast;
 
+import com.vitalgroundz.weatherapp.data.Forecast;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -17,7 +17,7 @@ import retrofit2.Retrofit;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String BASE_API = "http://api.openweatherapp.org/";
+    public static final String BASE_API = "http://api.openweathermap.org/";
     public static final String API_KEY = "bc165b4be4be8f55bba6417b6ef2a87d";
     public static final String UNIT_FAHRENHEIT = "imperial";
     public static final String UNIT_CELSIUS = "metric";
