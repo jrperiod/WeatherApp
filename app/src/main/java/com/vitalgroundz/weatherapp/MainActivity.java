@@ -63,7 +63,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void populateScreen(Forecast forecast) {
-        temp.setText(Integer.toString((int)forecast.getMain().getTemp()) + "\u2109");
+        String temperature = Integer.toString((int)forecast.getMain().getTemp());
+        temp.setText(getString(R.string.degrees_fahr, temperature));
         locale.setText(getString(R.string.hello_vitalgroundz, forecast.getName()));
     }
 
